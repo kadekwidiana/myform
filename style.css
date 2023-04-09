@@ -1,0 +1,101 @@
+*{padding: 0; margin: 0;}
+body{
+	background: #FBFBFC;
+	font-family: arial;
+}
+.container{
+	margin-top: 150px;
+}
+table{
+	width: 500px;
+	margin: auto;
+	padding: 40px 40px 160px 40px;
+	background: #fff;
+	box-shadow: 0px 3px 8px grey;
+	margin-top: 20px;
+}
+p.google{
+	margin-bottom: 70px;
+}
+.login, .google{
+	color:#212121;
+}
+.login{
+	margin-bottom: 5px;
+	font-family: arial;
+	font-size: 23px;
+}
+input[type=text]{
+	width: 100%;
+	border:none;
+	border-bottom: 1px solid #E2E2E2;
+	padding-bottom: 10px;
+	color:  #666;
+	font-size: 17px;
+}
+img{
+	width: 70px;
+	margin-bottom: 20px;
+}
+p.email{
+	padding: 30px 0 40px 0;
+}
+a{
+	color: #4285F4;
+	text-decoration: none;
+}
+.kiri{
+	float: left;
+}
+.kanan{
+	float: right;
+}
+.kanan input[type=submit]{
+	background: #4285F4;
+	padding: 10px 20px;
+	color: #fff;
+	border: none;
+	border-radius: 5px;
+	box-shadow: 0px 1px 5px #666;
+}
+input[type=submit]:hover{
+	cursor: pointer;
+	background: #666;
+	transition: background 1s;
+}
+.foot{
+	width: 500px;
+	margin: auto;
+	overflow: hidden;
+	margin-top: 20px;
+	color: #666;
+}
+.left{
+	float: left;
+}
+.left a{
+	color:#212121;
+}
+.right{
+	float: right;
+}
+ul{
+	list-style: none;
+}
+ul li{
+	float: left;
+
+}
+/*segitiga*/
+.triangle{
+	margin:8px;
+	float: right;
+	cursor: pointer;
+}
+.demo-arrow-down{
+	width: 0; 
+	height: 0; 
+	border-left: 5px solid transparent;
+	border-right: 5px solid transparent;	
+	border-top: 5px solid #333;
+}
